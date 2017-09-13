@@ -13,7 +13,6 @@ public class StudentDatabase {
 		student1.enroll("Chemistry");
 		student1.showCourses();
 		System.out.println(student1.toString());
-		System.out.println("\n *** Process terminated ***");
 	}
 
 }
