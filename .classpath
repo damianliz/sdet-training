@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/commons-lang3-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/google-guava.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/httpclient-4.0-alpha4.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/java-json.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/jsoup-1.10.3.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/jsoup-1.10.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/jsoup-1.10.3-sources.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="/home/pitt/Documents/Dev/Jars/logback-0.9.41-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
