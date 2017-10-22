@@ -6,10 +6,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Iterator;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+//import org.apache.poi.ss.usermodel.Cell;
+//import org.apache.poi.ss.usermodel.Row;
+//import org.apache.poi.xssf.usermodel.XSSFSheet;
+//import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Read {
 
@@ -28,21 +28,21 @@ public class Read {
 			// BufferedReader br = new BufferedReader(new FileReader(file));
 
 			FileInputStream fis = new FileInputStream(file);
-			XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = myWorkBook.getSheetAt(0);
-
-			Iterator<Row> itr = sheet.iterator();
-
-			while (itr.hasNext()) {
-
-				Row row = itr.next();
-
-				Iterator<Cell> cellIterator = row.cellIterator();
-				Cell cell = cellIterator.next();
-
-				String value = cell.getStringCellValue();
-				System.out.println("Cell value : " + value);
-			}
+//			XSSFWorkbo myWorkBook = new XSSFWorkbook(fis);
+//			XSSFSheet sheet = myWorkBook.getSheetAt(0);
+//
+//			Iterator<Row> itr = sheet.iterator();
+//
+//			while (itr.hasNext()) {
+//
+//				Row row = itr.next();
+//
+//				Iterator<Cell> cellIterator = row.cellIterator();
+//				Cell cell = cellIterator.next();
+//
+//				String value = cell.getStringCellValue();
+//				System.out.println("Cell value : " + value);
+//			}
 
 			// 4. Read the file
 			// text = br.readLine();
