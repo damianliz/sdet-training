@@ -44,4 +44,4 @@ jobs:
       # Run Postman collection
       - name: Run Postman Collection
         run: |
-          newman run ./newman/Test_Collection.postman_collection.json -r htmlextra
+          newman run ./newman/Test_Collection.postman_collection.json --reporters cli,htmlextra
